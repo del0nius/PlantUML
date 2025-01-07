@@ -1,0 +1,9 @@
+'Author: Daniil Gaponenko
+'Date: 07/01/2025
+
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob: Another Authentication Request
+Bob --> Alice: Another Authentication Response
+@enduml
