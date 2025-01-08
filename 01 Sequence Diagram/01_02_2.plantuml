@@ -1,0 +1,17 @@
+'Author: Daniil Gaponenko
+'Date: 08/01/2025
+
+@startuml
+
+actor Bob order 10 #red
+actor Alice order 20 #blue
+participant "I have a really\nlong name" as L order 35 #99FF99
+'participant M as "I have a really\nlong name"  #99FF99
+
+Bob <- Alice: Authentication Request
+Bob --> Alice: Authentication Response
+Bob -> L: Log transaction
+
+@enduml
+
+' you need put "order" before "color"

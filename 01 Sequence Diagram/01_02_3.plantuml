@@ -1,0 +1,19 @@
+'Author: Daniil Gaponenko
+'Date: 08/01/2025
+
+@startuml
+
+participant Participant [
+    =Title
+    ----
+    ""Subtitle""
+    ----
+    Contents
+    2ndLine
+]
+
+actor Bob
+
+Participant -> Bob
+
+@enduml
