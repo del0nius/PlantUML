@@ -1,0 +1,17 @@
+'Author: Daniil Gaponenko
+'Date: 09/01/2025
+
+@startuml
+
+'skinparam SequenceMessageAlignment right
+skinparam SequenceMessageAlign left
+
+actor Bob
+actor Jack1
+actor Jack2
+actor Alice
+
+Bob -> Alice: Request
+Bob <- Alice: Response
+
+@enduml

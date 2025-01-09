@@ -1,0 +1,9 @@
+'Author: Daniil Gaponenko
+'Date: 09/01/2025
+
+@startuml
+
+Alice -> Alice: This is a signal to self\nIt also demonstrates\nMultilines
+Alice <-- Alice: This is a signal to self\nIt also demonstrates\nMultilines
+
+@enduml

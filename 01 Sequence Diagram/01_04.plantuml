@@ -1,0 +1,10 @@
+'Author: Daniil Gaponenko
+'Date: 09/01/2025
+
+@startuml
+
+Alice -> "Bob()": Hello
+"Bob()" -> "This is a very\nlong" as Long
+Long --> "Bob()": OK
+
+@enduml
