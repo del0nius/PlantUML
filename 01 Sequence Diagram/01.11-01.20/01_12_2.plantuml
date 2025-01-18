@@ -1,0 +1,25 @@
+@startuml
+
+title sample of comparing opt and alt
+
+actor User
+
+User -> App: Purchase activity
+
+opt gift wrapping
+    User -> App: Choose gift wrapping
+end
+
+opt laser labeling
+    User -> App: Choose laser labeling
+end
+
+alt Payment with Credit Card
+    User -> App: Enter card details
+    App -> PaymentGateway: Pay with card
+else Payment by wire money transfer
+    User <- App: Provide Bank info for Wire Transfer
+    User -> Bank: Payment with transfer
+end
+
+@enduml
